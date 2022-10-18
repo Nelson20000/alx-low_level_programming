@@ -29,7 +29,6 @@ int numLength(int num)
 	{
 		return (1);
 	}
-
 	while (num)
 	{
 		num = num / 10;
@@ -55,7 +54,6 @@ void putnchar(int num)
 		_putchar(48);
 	else
 	{
-
 		while (j >= 0)
 		{
 			if (num % powB(10, j) == 0 && j != 0)
@@ -78,10 +76,10 @@ void putnchar(int num)
 					_putchar(48);
 					j--;
 				}
-				j--;}
+				j--;
+			}
 		}
 	}
-}
 }
 /**
  * sumr - returns the sum of numbers from start to end with step steps
@@ -99,6 +97,7 @@ int sumr(int start, int end, int step)
 		sum += i;
 	}
 	return (sum);
+
 }
 /**
  * main - prints the sum of all numbers under 1024
