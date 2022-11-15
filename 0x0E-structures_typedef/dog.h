@@ -9,12 +9,13 @@
  *  * @name: name of the dog
  *    * @age: how old the dog is
  *     * @owner: who owns the dog
- *      */
+ */
+
 typedef struct dog
 {
 	char *name;
-	        float age;
-	               char *owner;
+	float age;
+	char *owner;
 } dog_t;
 
 int _strlen(char *s);
